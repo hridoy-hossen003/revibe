@@ -1,5 +1,6 @@
-import { Facebook } from 'lucide-react';
-import React from 'react';
+
+import { PanelTopOpen, SquareMenu } from 'lucide-react';
+import React, { useState } from 'react';
 
 const navigationData = [
   {
@@ -28,18 +29,24 @@ const navigationData = [
     path: "/contact",
   },
 ];
+
+const links = navigationData.map((link) => (
+            <li key={link.id} className="text-xl font-semibold"> {link.name}</li>
+          ))
 const Navbar = () => {
+    const [open , setOpen] = useState(false)
     return (
-      <div>
-        <ul className="flex gap-4">
-          {navigationData.map((link) => (
-            <li className="text-xl font-semibold">
-              {" "}
-              <Facebook size={84} absoluteStrokeWidth />
-              {link.name}
-            </li>
-          ))}
-        </ul>
+      <div className="flex justify-between px-6">
+        <span className="flex items-center " onClick={() => setOpen(!open)}>
+          <span className="md:hidden">
+          {open ? <PanelTopOpen /> : <SquareMenu />}
+          </span>
+
+          <h2 className="text-xl font-semibold">Navbar</h2>
+          <ul className={`${open ? "top-10" : 'top-[-200px]'} z-10 duration-500 md:hidden absolute bg-white  text-black top-10`}>{links}</ul>
+        </span>
+        <ul className="lg:flex gap-4 hidden">{links}</ul>
+        <button className="text-xl btn font-semibold">Sign In</button>
       </div>
     );
 };

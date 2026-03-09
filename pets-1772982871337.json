@@ -1,0 +1,38 @@
+[
+  {
+    "color": "brown",
+    "type": "cat",
+    "size": "small",
+    "name": "Bear"
+  },
+  {
+    "color": "green",
+    "type": "snake",
+    "size": "small",
+    "name": "Basil"
+  },
+  {
+    "color": "green",
+    "type": "deno",
+    "size": "small",
+    "name": "Deno the Dino"
+  },
+  {
+    "color": "red",
+    "type": "fox",
+    "size": "small",
+    "name": "Paprika"
+  },
+  {
+    "color": "white",
+    "type": "bunny",
+    "size": "small",
+    "name": "Hopper"
+  },
+  {
+    "color": "green",
+    "type": "deno",
+    "size": "small",
+    "name": "Deno the Dino"
+  }
+]

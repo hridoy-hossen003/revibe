@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "planName": "Basic Plan",
+    "subtitle": "Perfect for beginners starting their fitness journey",
+    "price": 1200,
+    "duration": "1 Month",
+    "features": [
+      "Gym access (6 AM - 10 PM)",
+      "Basic workout equipment",
+      "Locker facility",
+      "Free drinking water",
+      "1 fitness consultation"
+    ]
+  },
+  {
+    "id": 2,
+    "planName": "Standard Plan",
+    "subtitle": "Best choice for regular gym members",
+    "price": 3200,
+    "duration": "3 Months",
+    "features": [
+      "Full gym access",
+      "All workout equipment",
+      "Locker + shower facility",
+      "Basic diet guideline",
+      "2 personal trainer sessions",
+      "Cardio & strength training zone"
+    ]
+  },
+  {
+    "id": 3,
+    "planName": "Premium Plan",
+    "subtitle": "Complete fitness solution with personal guidance",
+    "price": 10000,
+    "duration": "12 Months",
+    "features": [
+      "Unlimited gym access",
+      "Personal trainer support",
+      "Custom workout plan",
+      "Diet & nutrition plan",
+      "Body composition tracking",
+      "Locker + shower + towel service",
+      "Priority support"
+    ]
+  },
+  {
+    "id": 4,
+    "planName": "Student Plan",
+    "subtitle": "Affordable plan for students",
+    "price": 900,
+    "duration": "1 Month",
+    "features": [
+      "Gym access (4 PM - 9 PM)",
+      "Basic workout equipment",
+      "Student discount",
+      "Locker facility",
+      "Group workout sessions"
+    ]
+  },
+  {
+    "id": 5,
+    "planName": "Couple Plan",
+    "subtitle": "Train together and stay motivated",
+    "price": 1800,
+    "duration": "1 Month",
+    "features": [
+      "Access for 2 members",
+      "All gym equipment",
+      "Locker facility",
+      "Cardio & strength training",
+      "1 shared trainer session"
+    ]
+  },
+  {
+    "id": 6,
+    "planName": "Elite Plan",
+    "subtitle": "Premium fitness experience with VIP support",
+    "price": 15000,
+    "duration": "12 Months",
+    "features": [
+      "Unlimited gym access",
+      "Dedicated personal trainer",
+      "Advanced nutrition plan",
+      "Body transformation tracking",
+      "VIP locker & towel service",
+      "Priority booking for sessions"
+    ]
+  }
+]
