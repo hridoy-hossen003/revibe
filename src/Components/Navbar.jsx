@@ -36,7 +36,7 @@ const links = navigationData.map((link) => (
 const Navbar = () => {
     const [open , setOpen] = useState(false)
     return (
-      <div className="flex justify-between px-6">
+      <div className="flex justify-between items-center p-4 border px-6">
         <span className="flex items-center " onClick={() => setOpen(!open)}>
           <span className="md:hidden">
           {open ? <PanelTopOpen /> : <SquareMenu />}

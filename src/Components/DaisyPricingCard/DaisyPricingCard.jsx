@@ -11,7 +11,7 @@ const DaisyPricingCard = ({pricingData}) => {
       <>
       <div className='grid grid-cols-3 gap-4 mx-10 my-6'>
         {
-            pricings.map(Feather => <DaisyCard feature={Feather}></DaisyCard>)
+            pricings.map((Feather , i) => <DaisyCard key={i} feature={Feather}></DaisyCard>)
         }
       </div>
       </>

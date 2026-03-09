@@ -1,7 +1,7 @@
 import React from "react";
 
 const DaisyCard = ({ feature }) => {
-  const { planName, subtitle, price, duration, features } = feature;
+  const { planName, price,  features } = feature;
   return (
     <div className="h-full bg-base-100 rounded-xl border border-gray-200 shadow-lg ">
       <div className="flex h-full flex-col p-8">
